@@ -13,7 +13,12 @@ age = int(input('Enter your age: '))
 
 name = []
 
-for i in range(1,5):
+test = 5
+for i in range(5):
+    name.append(input("Enter a name: "))
+
+
+for i in name:
     print(i)
 
 
